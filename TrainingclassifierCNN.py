@@ -50,7 +50,6 @@ net.to(device)
 
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(net.parameters(), lr = 0.001, momentum=0.9)
-# lr_scheduler = lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.1)
 
     
 
